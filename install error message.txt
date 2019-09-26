@@ -1,0 +1,6 @@
+2019/9/26 16:35
+
+我安裝了nvidia-docker-compose 出現了下面error，目前未看到影響
+不過為了以後先記錄：
+
+ERROR: docker-compose 1.24.1 has requirement PyYAML<4.3,>=3.10, but you'll have pyyaml 5.1.2 which is incompatible.
