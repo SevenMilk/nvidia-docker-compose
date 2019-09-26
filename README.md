@@ -8,6 +8,8 @@
 
      $ https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker
 To completely uninstall Docker:
+
+
 Step 1
 
      $ dpkg -l | grep -i docker
