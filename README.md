@@ -14,6 +14,8 @@ Step 1
 
      $ dpkg -l | grep -i docker
 To identify what installed package you have:
+
+
 Step 2
 
      $ sudo apt-get purge -y docker-engine docker docker.io docker-ce  
