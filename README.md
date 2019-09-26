@@ -1,5 +1,7 @@
 # 系統 ubuntu16.04 記錄安裝nvidia-docker & nvidia-docker-compose
 在安裝nvidia-docker前必須先安裝docker-ce
+
+
 刪除舊版本的docker：
 
      $ sudo apt-get remove docker docker-engine docker.io containerd runc
