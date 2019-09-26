@@ -3,7 +3,7 @@
 刪除舊版本的docker：
 
      $ sudo apt-get remove docker docker-engine docker.io containerd runc
-如果無法刪除可以按照下列command：
+如果無法刪除可以按照下列方法
 參考網址：
 
      $ https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker
