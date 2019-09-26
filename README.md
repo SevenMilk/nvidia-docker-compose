@@ -45,13 +45,17 @@ You have removed Docker from the system completely.
      $ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
      $ sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
      $ sudo systemctl restart docker
-這時候如果打下列command是沒反應代表安裝失敗，請重新安裝!
+這時候如果打下列command是沒反應代表安裝失敗，請重新安裝 !
 
      $ sudo systemctl restart nvidia-docker
 參考網址：
 
      $ https://github.com/NVIDIA/nvidia-docker
 
-# nvidia-docker-compose
-# 安裝指令：pip install nvidia-docker-compose
-# 參考網址：https://github.com/eywalker/nvidia-docker-compose
+nvidia-docker-compose
+安裝指令：
+
+     $ pip install nvidia-docker-compose
+參考網址：
+
+     $ https://github.com/eywalker/nvidia-docker-compose
