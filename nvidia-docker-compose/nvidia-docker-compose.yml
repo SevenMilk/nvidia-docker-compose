@@ -39,7 +39,7 @@ services:
     ports:
       - "8890:8888"
     volumes:
-      - /home/weiclass/Tibame_project/picture:/openpose-master/openpose/picture
+      - /home/weiclass/Tibame_project/picture:~/openpose/picture
       - nvidia_driver_435.21:/usr/local/nvidia:ro
     devices:
     - /dev/nvidia0
