@@ -27,4 +27,27 @@
 
       $ nvidia-smi
 
+或是daemon.json文件可以這樣寫：
+
+      {
+          "runtimes": {
+              "nvidia": {
+                  "path": "/usr/bin/nvidia-container-runtime",
+                  "runtimeArgs": []
+              }
+          },
+          "default-runtime": "nvidia"  # add this line
+      }
+接著重啟docker：
+
+      $ systemctl restart docker
+      $ systemctl status docker
+請執行此指令，把container run起來：
+
+      $ sudo docker run -it nvidia/cuda:10.1-cudnn7-devel-ubuntu16.04
+      
+進入容器後下此指令：
+
+      $ nvidia-smi
+
 如果有看到東西就成功了 !! 恭喜
