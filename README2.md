@@ -20,7 +20,7 @@
 
 之後可以去https://hub.docker.com/r/nvidia/cuda/找自己需要的docker images檔案
 下列以"10.1-cudnn7-devel-ubuntu16.04" docker images檔案做為示範：
-請執行此指令，把container run起來：
+請執行此指令，把container run起來：(devel代表開發者)
 
       $ sudo docker run -it --runtime=nvidia nvidia/cuda:10.1-cudnn7-devel-ubuntu16.04
 進入容器後下此指令：
